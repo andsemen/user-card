@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.user-card{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid #117e8f;
+}
+
+.user-card-header{
+  height: 200px;
+  background-color: #17a2b8;
+}
+
+.avatar-wrapper{
+  width: 170px;
+  height: 170px;
+  margin: 0 auto;
+}
+
+.card-avatar{
+  height: inherit;
+  margin-top: -50%;
+  border-radius: 50%;
+  border: 7px solid whitesmoke;
+}
+
+.card-info-list{
+  list-style: none;
+}
+
+.user-card-info{
+  font-size: 20px;
+  margin-top: -70px;
+}
+
+.locate-img{
+  height: 15px;
+  width: 15px;
+}
+
+.btn{
+  padding: 30px 40px;
+}
+
+
+.follow-btn{
+  background-color: #28a745;
+}
+
+.send-btn{
+  background-color: #17a2b8;
+}
+
+.follow-btn, .send-btn{
+padding: 10px 15px;
+margin: 20px 0;
+}
+
+.user-card-about{
+  padding: 20px;
+  font-size: 18px;
+}
+
+.footer{
+  height: 80px;
+  background-color: #17a2b8;
+
+}
+
+.socials img{
+  display: inline-block;
+  margin: 20px 10px;
+  width: 40px;
+  height: 40px;
+}
